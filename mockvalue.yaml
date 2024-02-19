@@ -91,8 +91,8 @@ paths:
       <State>MN</State>
       <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
-      <PrimaryPhone></PrimaryPhone>
-      <CustomerLastName>Rojas</CustomerLastName>
+      <PrimaryPhone>5072274738</PrimaryPhone>
+      <CustomerLastName></CustomerLastName>
       <CustomerFirstName>Dany</CustomerFirstName>
     </Table>
     <Table>
@@ -107,7 +107,7 @@ paths:
       <State>MN</State>
       <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
-      <PrimaryPhone></PrimaryPhone>
+      <PrimaryPhone>5072274738</PrimaryPhone>
       <CustomerLastName>Penelope</CustomerLastName>
       <CustomerFirstName>Featheringhton</CustomerFirstName>
     </Table>
@@ -147,7 +147,7 @@ paths:
       <ContactPerson></ContactPerson>
       <Inactive>false</Inactive>
       <LocationType></LocationType>
-      <PhoneNumber></PhoneNumber>
+      <PhoneNumber>(507) 227-4738</PhoneNumber>
     </Table>
     <Table>
       <Name>Winston Regent</Name>
@@ -160,7 +160,7 @@ paths:
       <ContactPerson></ContactPerson>
       <Inactive>false</Inactive>
       <LocationType></LocationType>
-      <PhoneNumber></PhoneNumber>
+      <PhoneNumber>(507) 227-4738</PhoneNumber>
     </Table>
   </DataSet>
 </Results>'
@@ -291,7 +291,7 @@ components:
       <State>MN</State>
       <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
-      <PrimaryPhone></PrimaryPhone>
+      <PrimaryPhone>5072274738</PrimaryPhone>
       <CustomerLastName>Simon</CustomerLastName>
       <CustomerFirstName>Hastings</CustomerFirstName>
     </Table>
@@ -307,7 +307,7 @@ components:
       <State>MN</State>
       <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
-      <PrimaryPhone></PrimaryPhone>
+      <PrimaryPhone>5072274738</PrimaryPhone>
       <CustomerLastName>Anthony</CustomerLastName>
       <CustomerFirstName>Bridgerton</CustomerFirstName>
     </Table>
@@ -366,7 +366,7 @@ components:
       <ContactPerson></ContactPerson>
       <Inactive>false</Inactive>
       <LocationType></LocationType>
-      <PhoneNumber></PhoneNumber>
+      <PhoneNumber>(507) 227-4738</PhoneNumber>
     </Table>
     <Table>
       <Name>Winston Regent</Name>
@@ -379,7 +379,7 @@ components:
       <ContactPerson></ContactPerson>
       <Inactive>false</Inactive>
       <LocationType></LocationType>
-      <PhoneNumber></PhoneNumber>
+      <PhoneNumber>(507) 227-4738</PhoneNumber>
     </Table>
   </DataSet>
 </Results>'
