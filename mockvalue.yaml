@@ -138,10 +138,10 @@ paths:
   <DataSet>
     <Table>
       <Name>House Manor</Name>
-      <Address1></Address1>
+      <Address1>House manor</Address1>
       <Address2></Address2>
       <Address3></Address3>
-      <City>ADRIAN</City>
+      <City></City>
       <State>MN</State>
       <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
@@ -151,10 +151,10 @@ paths:
     </Table>
     <Table>
       <Name>Winston Regent</Name>
-      <Address1></Address1>
+      <Address1>House manor</Address1>
       <Address2></Address2>
       <Address3></Address3>
-      <City>ADRIAN</City>
+      <City></City>
       <State>MN</State>
       <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
@@ -357,10 +357,10 @@ components:
    <DataSet>
     <Table>
       <Name>House Manor</Name>
-      <Address1></Address1>
+      <Address1>House manor</Address1>
       <Address2></Address2>
       <Address3></Address3>
-      <City>ADRIAN</City>
+      <City></City>
       <State>MN</State>
       <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
@@ -370,10 +370,10 @@ components:
     </Table>
     <Table>
       <Name>Winston Regent</Name>
-      <Address1></Address1>
+      <Address1>House manor</Address1>
       <Address2></Address2>
       <Address3></Address3>
-      <City>ADRIAN</City>
+      <City></City>
       <State>MN</State>
       <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
