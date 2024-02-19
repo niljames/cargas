@@ -82,7 +82,7 @@ paths:
     <Table>
       <CustomerID>94601</CustomerID>
       <CustomerStatus>Active</CustomerStatus>
-      <CustomerType>No Type</CustomerType>
+      <CustomerType></CustomerType>
       <EmailAddress>alice_cargo@yopmail.com</EmailAddress>
       <Address1>PO BOX442</Address1>
       <Address2></Address2>
@@ -98,7 +98,7 @@ paths:
     <Table>
       <CustomerID>94603</CustomerID>
       <CustomerStatus>Active</CustomerStatus>
-      <CustomerType>No Type</CustomerType>
+      <CustomerType></CustomerType>
       <EmailAddress>alice_cargo@yopmail.com</EmailAddress>
       <Address1>PO BOX442</Address1>
       <Address2></Address2>
