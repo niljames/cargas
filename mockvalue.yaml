@@ -89,9 +89,9 @@ paths:
       <Address3></Address3>
       <City>Adrian</City>
       <State>MN</State>
-      <Zipcode></Zipcode>
+      <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
-      <PrimaryPhone>5072274738</PrimaryPhone>
+      <PrimaryPhone></PrimaryPhone>
       <CustomerLastName>Rojas</CustomerLastName>
       <CustomerFirstName>Dany</CustomerFirstName>
     </Table>
@@ -105,9 +105,9 @@ paths:
       <Address3></Address3>
       <City>Adrian</City>
       <State>MN</State>
-      <Zipcode></Zipcode>
+      <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
-      <PrimaryPhone>5072274738</PrimaryPhone>
+      <PrimaryPhone></PrimaryPhone>
       <CustomerLastName>Penelope</CustomerLastName>
       <CustomerFirstName>Featheringhton</CustomerFirstName>
     </Table>
@@ -143,11 +143,11 @@ paths:
       <Address3></Address3>
       <City>Adrian</City>
       <State>MN</State>
-      <Zipcode></Zipcode>
+      <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
       <Inactive>false</Inactive>
       <LocationType></LocationType>
-      <PhoneNumber>(507) 227-4738</PhoneNumber>
+      <PhoneNumber></PhoneNumber>
     </Table>
     <Table>
       <Name>Winston Regent</Name>
@@ -156,11 +156,11 @@ paths:
       <Address3></Address3>
       <City>Adrian</City>
       <State>MN</State>
-      <Zipcode></Zipcode>
+      <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
       <Inactive>false</Inactive>
       <LocationType></LocationType>
-      <PhoneNumber>(507) 227-4738</PhoneNumber>
+      <PhoneNumber></PhoneNumber>
     </Table>
   </DataSet>
 </Results>'
@@ -289,9 +289,9 @@ components:
       <Address3></Address3>
       <City>Adrian</City>
       <State>MN</State>
-      <Zipcode></Zipcode>
+      <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
-      <PrimaryPhone>5072274738</PrimaryPhone>
+      <PrimaryPhone></PrimaryPhone>
       <CustomerLastName>Simon</CustomerLastName>
       <CustomerFirstName>Hastings</CustomerFirstName>
     </Table>
@@ -305,9 +305,9 @@ components:
       <Address3></Address3>
       <City>Adrian</City>
       <State>MN</State>
-      <Zipcode></Zipcode>
+      <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
-      <PrimaryPhone>5072274738</PrimaryPhone>
+      <PrimaryPhone></PrimaryPhone>
       <CustomerLastName>Anthony</CustomerLastName>
       <CustomerFirstName>Bridgerton</CustomerFirstName>
     </Table>
@@ -362,11 +362,11 @@ components:
       <Address3></Address3>
       <City>Adrian</City>
       <State>MN</State>
-      <Zipcode></Zipcode>
+      <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
       <Inactive>false</Inactive>
       <LocationType></LocationType>
-      <PhoneNumber>(507) 227-4738</PhoneNumber>
+      <PhoneNumber></PhoneNumber>
     </Table>
     <Table>
       <Name>Winston Regent</Name>
@@ -375,11 +375,11 @@ components:
       <Address3></Address3>
       <City>Adrian</City>
       <State>MN</State>
-      <Zipcode></Zipcode>
+      <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
       <Inactive>false</Inactive>
       <LocationType></LocationType>
-      <PhoneNumber>(507) 227-4738</PhoneNumber>
+      <PhoneNumber></PhoneNumber>
     </Table>
   </DataSet>
 </Results>'
