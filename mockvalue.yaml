@@ -84,10 +84,10 @@ paths:
       <CustomerStatus>Active</CustomerStatus>
       <CustomerType>Residential</CustomerType>
       <EmailAddress>alice_cargo@yopmail.com</EmailAddress>
-      <Address1></Address1>
+      <Address1>House Manor</Address1>
       <Address2></Address2>
       <Address3></Address3>
-      <City>ADRIAN</City>
+      <City></City>
       <State>MN</State>
       <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
@@ -103,7 +103,7 @@ paths:
       <Address1>PO BOX442</Address1>
       <Address2></Address2>
       <Address3></Address3>
-      <City>ADRIAN</City>
+      <City></City>
       <State>MN</State>
       <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
@@ -287,7 +287,7 @@ components:
       <Address1>PO BOX442</Address1>
       <Address2></Address2>
       <Address3></Address3>
-      <City>ADRIAN</City>
+      <City></City>
       <State>MN</State>
       <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
@@ -303,7 +303,7 @@ components:
       <Address1>PO BOX442</Address1>
       <Address2></Address2>
       <Address3></Address3>
-      <City>ADRIAN</City>
+      <City></City>
       <State>MN</State>
       <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
