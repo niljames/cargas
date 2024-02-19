@@ -88,8 +88,8 @@ paths:
       <Address2></Address2>
       <Address3></Address3>
       <City>Adrian</City>
-      <State></State>
-      <Zipcode>56110</Zipcode>
+      <State>MN</State>
+      <Zipcode></Zipcode>
       <ContactPerson></ContactPerson>
       <PrimaryPhone>5072274738</PrimaryPhone>
       <CustomerLastName>Rojas</CustomerLastName>
@@ -104,8 +104,8 @@ paths:
       <Address2></Address2>
       <Address3></Address3>
       <City>Adrian</City>
-      <State></State>
-      <Zipcode>56110</Zipcode>
+      <State>MN</State>
+      <Zipcode></Zipcode>
       <ContactPerson></ContactPerson>
       <PrimaryPhone>5072274738</PrimaryPhone>
       <CustomerLastName>Penelope</CustomerLastName>
@@ -142,8 +142,8 @@ paths:
       <Address2></Address2>
       <Address3></Address3>
       <City>Adrian</City>
-      <State></State>
-      <Zipcode>56110</Zipcode>
+      <State>MN</State>
+      <Zipcode></Zipcode>
       <ContactPerson></ContactPerson>
       <Inactive>false</Inactive>
       <LocationType></LocationType>
@@ -155,8 +155,8 @@ paths:
       <Address2></Address2>
       <Address3></Address3>
       <City>Adrian</City>
-      <State></State>
-      <Zipcode>56110</Zipcode>
+      <State>MN</State>
+      <Zipcode></Zipcode>
       <ContactPerson></ContactPerson>
       <Inactive>false</Inactive>
       <LocationType></LocationType>
@@ -288,8 +288,8 @@ components:
       <Address2></Address2>
       <Address3></Address3>
       <City>Adrian</City>
-      <State></State>
-      <Zipcode>56110</Zipcode>
+      <State>MN</State>
+      <Zipcode></Zipcode>
       <ContactPerson></ContactPerson>
       <PrimaryPhone>5072274738</PrimaryPhone>
       <CustomerLastName>Simon</CustomerLastName>
@@ -304,8 +304,8 @@ components:
       <Address2></Address2>
       <Address3></Address3>
       <City>Adrian</City>
-      <State></State>
-      <Zipcode>56110</Zipcode>
+      <State>MN</State>
+      <Zipcode></Zipcode>
       <ContactPerson></ContactPerson>
       <PrimaryPhone>5072274738</PrimaryPhone>
       <CustomerLastName>Anthony</CustomerLastName>
@@ -361,8 +361,8 @@ components:
       <Address2></Address2>
       <Address3></Address3>
       <City>Adrian</City>
-      <State></State>
-      <Zipcode>56110</Zipcode>
+      <State>MN</State>
+      <Zipcode></Zipcode>
       <ContactPerson></ContactPerson>
       <Inactive>false</Inactive>
       <LocationType></LocationType>
@@ -374,8 +374,8 @@ components:
       <Address2></Address2>
       <Address3></Address3>
       <City>Adrian</City>
-      <State></State>
-      <Zipcode>56110</Zipcode>
+      <State>MN</State>
+      <Zipcode></Zipcode>
       <ContactPerson></ContactPerson>
       <Inactive>false</Inactive>
       <LocationType></LocationType>
