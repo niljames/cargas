@@ -80,9 +80,9 @@ paths:
                   value: '<Results>
   <DataSet>
     <Table>
-      <CustomerID>94601</CustomerID>
+      <CustomerID></CustomerID>
       <CustomerStatus>Active</CustomerStatus>
-      <CustomerType></CustomerType>
+      <CustomerType>Residential</CustomerType>
       <EmailAddress>alice_cargo@yopmail.com</EmailAddress>
       <Address1>PO BOX442</Address1>
       <Address2></Address2>
@@ -92,13 +92,13 @@ paths:
       <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
       <PrimaryPhone>5072274738</PrimaryPhone>
-      <CustomerLastName>Keys</CustomerLastName>
-      <CustomerFirstName>Alicia</CustomerFirstName>
+      <CustomerLastName>Rojas</CustomerLastName>
+      <CustomerFirstName>Dany</CustomerFirstName>
     </Table>
     <Table>
       <CustomerID>94603</CustomerID>
       <CustomerStatus>Active</CustomerStatus>
-      <CustomerType></CustomerType>
+      <CustomerType>Residential</CustomerType>
       <EmailAddress>alice_cargo@yopmail.com</EmailAddress>
       <Address1>PO BOX442</Address1>
       <Address2></Address2>
