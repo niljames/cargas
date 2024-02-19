@@ -87,8 +87,8 @@ paths:
       <Address1>House Manor</Address1>
       <Address2></Address2>
       <Address3></Address3>
-      <City></City>
-      <State>MN</State>
+      <City>Adrian</City>
+      <State></State>
       <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
       <PrimaryPhone>5072274738</PrimaryPhone>
@@ -103,8 +103,8 @@ paths:
       <Address1>PO BOX442</Address1>
       <Address2></Address2>
       <Address3></Address3>
-      <City></City>
-      <State>MN</State>
+      <City>Adrian</City>
+      <State></State>
       <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
       <PrimaryPhone>5072274738</PrimaryPhone>
@@ -141,8 +141,8 @@ paths:
       <Address1>House manor</Address1>
       <Address2></Address2>
       <Address3></Address3>
-      <City></City>
-      <State>MN</State>
+      <City>Adrian</City>
+      <State></State>
       <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
       <Inactive>false</Inactive>
@@ -154,8 +154,8 @@ paths:
       <Address1>House manor</Address1>
       <Address2></Address2>
       <Address3></Address3>
-      <City></City>
-      <State>MN</State>
+      <City>Adrian</City>
+      <State></State>
       <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
       <Inactive>false</Inactive>
@@ -287,8 +287,8 @@ components:
       <Address1>PO BOX442</Address1>
       <Address2></Address2>
       <Address3></Address3>
-      <City></City>
-      <State>MN</State>
+      <City>Adrian</City>
+      <State></State>
       <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
       <PrimaryPhone>5072274738</PrimaryPhone>
@@ -303,8 +303,8 @@ components:
       <Address1>PO BOX442</Address1>
       <Address2></Address2>
       <Address3></Address3>
-      <City></City>
-      <State>MN</State>
+      <City>Adrian</City>
+      <State></State>
       <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
       <PrimaryPhone>5072274738</PrimaryPhone>
@@ -360,8 +360,8 @@ components:
       <Address1>House manor</Address1>
       <Address2></Address2>
       <Address3></Address3>
-      <City></City>
-      <State>MN</State>
+      <City>Adrian</City>
+      <State></State>
       <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
       <Inactive>false</Inactive>
@@ -373,8 +373,8 @@ components:
       <Address1>House manor</Address1>
       <Address2></Address2>
       <Address3></Address3>
-      <City></City>
-      <State>MN</State>
+      <City>Adrian</City>
+      <State></State>
       <Zipcode>56110</Zipcode>
       <ContactPerson></ContactPerson>
       <Inactive>false</Inactive>
