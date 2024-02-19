@@ -1,0 +1,411 @@
+---
+openapi: 3.0.2
+info:
+  title: API Cargas - 1.0
+  version: 1.0.0
+  description: API definition of Cargas
+  contact:
+    name: Cargas-lakesgas
+    url: https://lakesgas-cargas.silverlinevps.com
+    email: achyuth@mailinator.com
+paths:
+  /API/GetNewCustomers:
+    summary: Get list of new customers
+    post:
+      responses:
+        "200":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Customers'
+              examples:
+                New Customers Example:
+                  value: '<Results>
+  <DataSet>
+    <Table>
+      <CustomerID>12312313</CustomerID>
+    </Table>
+    <Table>
+      <CustomerID>12312314</CustomerID>
+    </Table>
+    <Table>
+      <CustomerID>12312315</CustomerID>
+    </Table>
+    <Table>
+      <CustomerID>12312316</CustomerID>
+    </Table>
+    <Table>
+      <CustomerID>12312317</CustomerID>
+    </Table>
+    <Table>
+      <CustomerID>12312318</CustomerID>
+    </Table>
+    <Table>
+      <CustomerID>12312319</CustomerID>
+    </Table>
+    <Table>
+      <CustomerID>12312310</CustomerID>
+    </Table>
+    <Table>
+      <CustomerID>12312311</CustomerID>
+    </Table>
+    <Table>
+      <CustomerID>12312312</CustomerID>
+    </Table>
+    <Table>
+      <CustomerID>12312112</CustomerID>
+    </Table>
+  </DataSet>
+</Results>'
+                    
+          description: Changed Customers
+      operationId: GetNewCustomers
+      summary: Get New Customers
+  /API/GetCustomerAccount:
+    summary: Get list of customer accounts
+    post:
+      requestBody:
+        content:
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/CustomerId'
+      responses:
+        "200":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Accounts'
+              examples:
+                Customer Accounts Example:
+                  value: '<Results>
+  <DataSet>
+    <Table>
+      <CustomerID>94602</CustomerID>
+      <CustomerStatus>Active</CustomerStatus>
+      <CustomerType>Residential</CustomerType>
+      <EmailAddress>dt2013@hotmail.com</EmailAddress>
+      <Address1>PO BOX442</Address1>
+      <Address2></Address2>
+      <Address3></Address3>
+      <City>ADRIAN</City>
+      <State>MN</State>
+      <Zipcode>56110</Zipcode>
+      <ContactPerson></ContactPerson>
+      <PrimaryPhone>5072274738</PrimaryPhone>
+      <CustomerLastName>Mayfair</CustomerLastName>
+      <CustomerFirstName>Bridgerton</CustomerFirstName>
+    </Table>
+    <Table>
+      <CustomerID>94603</CustomerID>
+      <CustomerStatus>Active</CustomerStatus>
+      <CustomerType>Residential</CustomerType>
+      <EmailAddress>dt2013@hotmail.com</EmailAddress>
+      <Address1>PO BOX442</Address1>
+      <Address2></Address2>
+      <Address3></Address3>
+      <City>ADRIAN</City>
+      <State>MN</State>
+      <Zipcode>56110</Zipcode>
+      <ContactPerson></ContactPerson>
+      <PrimaryPhone>5072274738</PrimaryPhone>
+      <CustomerLastName>Penelope</CustomerLastName>
+      <CustomerFirstName>Featheringhton</CustomerFirstName>
+    </Table>
+  </DataSet>
+</Results>'
+                   
+          description: Changed
+      operationId: GetCustomerAccounts
+      summary: Get Customer Accounts
+  /API/GetCustomerLocations:
+    summary: Get customer locations
+    post:
+      requestBody:
+        content:
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/CustomerId'
+      responses:
+        "200":
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Locations'
+              examples:
+                Customer Locations Example:
+                  value:
+                    '<Results>
+  <DataSet>
+    <Table>
+      <Name></Name>
+      <Address1>PO BOX442</Address1>
+      <Address2></Address2>
+      <Address3></Address3>
+      <City>ADRIAN</City>
+      <State>MN</State>
+      <Zipcode>56110</Zipcode>
+      <ContactPerson></ContactPerson>
+      <Inactive>false</Inactive>
+      <LocationType></LocationType>
+      <PhoneNumber>(507) 227-4738</PhoneNumber>
+    </Table>
+    <Table>
+      <Name>Primary Location</Name>
+      <Address1>500 INDIANA AVE</Address1>
+      <Address2></Address2>
+      <Address3></Address3>
+      <City>ADRIAN</City>
+      <State>MN</State>
+      <Zipcode>56110</Zipcode>
+      <ContactPerson></ContactPerson>
+      <Inactive>false</Inactive>
+      <LocationType></LocationType>
+      <PhoneNumber>(507) 227-4738</PhoneNumber>
+    </Table>
+    <Table>
+      <Name>Primary Location</Name>
+      <Address1>500 INDIANA AVE</Address1>
+      <Address2></Address2>
+      <Address3></Address3>
+      <City>ADRIAN</City>
+      <State>MN</State>
+      <Zipcode>56110</Zipcode>
+      <ContactPerson></ContactPerson>
+      <Inactive>false</Inactive>
+      <LocationType>Owner</LocationType>
+      <PhoneNumber>(507) 227-4738</PhoneNumber>
+    </Table>
+  </DataSet>
+</Results>'
+          description: Changed
+      operationId: GetCustomerLocations
+      summary: Get Customer Locations
+components:
+  schemas:
+    CustomerId:
+      type: object
+      properties:
+        CustomerID:
+          type: string
+          description: Customer Id
+          example: 12312313
+    Customers:
+      title: Root Type for custoemrs
+      description: The root of the customers type's schema.
+      type: object
+      properties:
+        Results:
+          type: object
+          properties:
+            DataSet:
+              type: object
+              properties:
+                Table: 
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      CustomerID:
+                        type: string
+      example:
+        value: '<Results>
+  <DataSet>
+    <Table>
+      <CustomerID>12312313</CustomerID>
+    </Table>
+    <Table>
+      <CustomerID>12312314</CustomerID>
+    </Table>
+    <Table>
+      <CustomerID>12312315</CustomerID>
+    </Table>
+    <Table>
+      <CustomerID>12312316</CustomerID>
+    </Table>
+    <Table>
+      <CustomerID>12312317</CustomerID>
+    </Table>
+    <Table>
+      <CustomerID>12312318</CustomerID>
+    </Table>
+    <Table>
+      <CustomerID>12312319</CustomerID>
+    </Table>
+    <Table>
+      <CustomerID>12312310</CustomerID>
+    </Table>
+    <Table>
+      <CustomerID>12312311</CustomerID>
+    </Table>
+    <Table>
+      <CustomerID>12312312</CustomerID>
+    </Table>
+    <Table>
+      <CustomerID>12312112</CustomerID>
+    </Table>
+  </DataSet>
+</Results>'
+    Accounts:
+      title: Root Type for accounts
+      description: The root of the accounts type's schema.
+      type: object
+      properties:
+        Results:
+          type: object
+          properties:
+            DataSet:
+              type: object
+              properties:
+                Table: 
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      CustomerID:
+                        type: string
+                      CustomerStatus:
+                        type: string
+                      CustomerType:
+                        type: string                  
+                      EmailAddress:
+                        type: string
+                      Address1:
+                        type: string                  
+                      Address2:
+                        type: string                  
+                      Address3:
+                        type: string                  
+                      City:
+                        type: string                  
+                      State:
+                        type: string                    
+                      Zipcode:
+                        type: string
+                      ContactPerson:
+                        type: string
+                      PrimaryPhone:
+                        type: string
+                      CustomerLastName:
+                        type: string
+                      CustomerFirstName:
+                        type: string
+      example:
+        Value: '<Results>
+  <DataSet>
+    <Table>
+      <CustomerID>94604</CustomerID>
+      <CustomerStatus>Active</CustomerStatus>
+      <CustomerType>Residential</CustomerType>
+      <EmailAddress>dt2013@hotmail.com</EmailAddress>
+      <Address1>PO BOX442</Address1>
+      <Address2></Address2>
+      <Address3></Address3>
+      <City>ADRIAN</City>
+      <State>MN</State>
+      <Zipcode>56110</Zipcode>
+      <ContactPerson></ContactPerson>
+      <PrimaryPhone>5072274738</PrimaryPhone>
+      <CustomerLastName>Simon</CustomerLastName>
+      <CustomerFirstName>Hastings</CustomerFirstName>
+    </Table>
+    <Table>
+      <CustomerID>94605</CustomerID>
+      <CustomerStatus>Active</CustomerStatus>
+      <CustomerType>Residential</CustomerType>
+      <EmailAddress>dt2013@hotmail.com</EmailAddress>
+      <Address1>PO BOX442</Address1>
+      <Address2></Address2>
+      <Address3></Address3>
+      <City>ADRIAN</City>
+      <State>MN</State>
+      <Zipcode>56110</Zipcode>
+      <ContactPerson></ContactPerson>
+      <PrimaryPhone>5072274738</PrimaryPhone>
+      <CustomerLastName>Anthony</CustomerLastName>
+      <CustomerFirstName>Bridgerton</CustomerFirstName>
+    </Table>
+  </DataSet>
+</Results>'
+        
+    Locations:
+      title: Root Type for locations
+      description: The root of the locations type's schema.
+      type: object
+      properties:
+        Results:
+          type: object
+          properties: 
+            DataSet:
+              type: object
+              properties:
+                Table: 
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      Name:
+                        type: string
+                      Address1:
+                        type: string                  
+                      Address2:
+                        type: string                  
+                      Address3:
+                        type: string                  
+                      City:
+                        type: string                  
+                      State:
+                        type: string                    
+                      Zipcode:
+                        type: string
+                      ContactPerson:
+                        type: string
+                      Inactive:
+                        type: boolean
+                      LocationType:
+                        type: string                  
+                      PhoneNumber:
+                        type: string
+      example:
+        Value: '<Results>
+  <DataSet>
+    <Table>
+      <Name></Name>
+      <Address1>PO BOX 442</Address1>
+      <Address2></Address2>
+      <Address3></Address3>
+      <City>ADRIAN</City>
+      <State>MN</State>
+      <Zipcode>56110</Zipcode>
+      <ContactPerson></ContactPerson>
+      <Inactive>false</Inactive>
+      <LocationType></LocationType>
+      <PhoneNumber>(507) 227-4738</PhoneNumber>
+    </Table>
+    <Table>
+      <Name>Primary Location</Name>
+      <Address1>500 INDIANA AVE</Address1>
+      <Address2></Address2>
+      <Address3></Address3>
+      <City>ADRIAN</City>
+      <State>MN</State>
+      <Zipcode>56110</Zipcode>
+      <ContactPerson></ContactPerson>
+      <Inactive>false</Inactive>
+      <LocationType></LocationType>
+      <PhoneNumber>(507) 227-4738</PhoneNumber>
+    </Table>
+    <Table>
+      <Name>Primary Location</Name>
+      <Address1>500 INDIANA AVE</Address1>
+      <Address2></Address2>
+      <Address3></Address3>
+      <City>ADRIAN</City>
+      <State>MN</State>
+      <Zipcode>56110</Zipcode>
+      <ContactPerson></ContactPerson>
+      <Inactive>false</Inactive>
+      <LocationType>Owner</LocationType>
+      <PhoneNumber>(507) 227-4738</PhoneNumber>
+    </Table>
+  </DataSet>
+</Results>'      
