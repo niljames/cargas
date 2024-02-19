@@ -137,7 +137,7 @@ paths:
                     '<Results>
   <DataSet>
     <Table>
-      <Name></Name>
+      <Name>House Manor</Name>
       <Address1>PO BOX442</Address1>
       <Address2></Address2>
       <Address3></Address3>
@@ -150,7 +150,7 @@ paths:
       <PhoneNumber>(507) 227-4738</PhoneNumber>
     </Table>
     <Table>
-      <Name>Primary Location</Name>
+      <Name>Winston Regent</Name>
       <Address1>500 INDIANA AVE</Address1>
       <Address2></Address2>
       <Address3></Address3>
@@ -160,19 +160,6 @@ paths:
       <ContactPerson></ContactPerson>
       <Inactive>false</Inactive>
       <LocationType></LocationType>
-      <PhoneNumber>(507) 227-4738</PhoneNumber>
-    </Table>
-    <Table>
-      <Name>Primary Location</Name>
-      <Address1>500 INDIANA AVE</Address1>
-      <Address2></Address2>
-      <Address3></Address3>
-      <City>ADRIAN</City>
-      <State>MN</State>
-      <Zipcode>56110</Zipcode>
-      <ContactPerson></ContactPerson>
-      <Inactive>false</Inactive>
-      <LocationType>Owner</LocationType>
       <PhoneNumber>(507) 227-4738</PhoneNumber>
     </Table>
   </DataSet>
