@@ -82,12 +82,12 @@ paths:
     <Table>
       <CustomerID>92820</CustomerID>
       <CustomerStatus>Active</CustomerStatus>
-      <CustomerType>Business</CustomerType>
+      <CustomerType>Residential</CustomerType>
       <EmailAddress>normak_email@yopmail.com</EmailAddress>
-      <Address1>House Manory</Address1>
+      <Address1>House Manoria</Address1>
       <Address2></Address2>
       <Address3></Address3>
-      <City>Adrian</City>
+      <City>Adriana</City>
       <State>MN</State>
       <Zipcode>56117</Zipcode>
       <ContactPerson></ContactPerson>
@@ -137,11 +137,11 @@ paths:
                     '<Results>
   <DataSet>
     <Table>
-      <Name>House Manor</Name>
+      <Name>House Manoria</Name>
       <Address1>PO BOX442</Address1>
       <Address2></Address2>
       <Address3></Address3>
-      <City>ADRIAN</City>
+      <City>ADRIANANA</City>
       <State>MN</State>
       <Zipcode>56117</Zipcode>
       <ContactPerson></ContactPerson>
