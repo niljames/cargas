@@ -83,7 +83,7 @@ paths:
       <CustomerID>92891</CustomerID>
       <CustomerStatus>Active</CustomerStatus>
       <CustomerType>Residential</CustomerType>
-      <EmailAddress>changed_email@yopmail.com</EmailAddress>
+      <EmailAddress>normak_email@yopmail.com</EmailAddress>
       <Address1>House Manor</Address1>
       <Address2></Address2>
       <Address3></Address3>
@@ -99,7 +99,7 @@ paths:
       <CustomerID>94603</CustomerID>
       <CustomerStatus>Active</CustomerStatus>
       <CustomerType>Residential</CustomerType>
-      <EmailAddress>changed_email@yopmail.com</EmailAddress>
+      <EmailAddress>normak_email@yopmail.com</EmailAddress>
       <Address1>PO BOX442</Address1>
       <Address2></Address2>
       <Address3></Address3>
